@@ -12,7 +12,22 @@ gem 'puma', '~> 3.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+# Encoding and decoding JWT tokens
+# Once the user model is done, the implementation of the JWT token generation can start.
+# First, the jwt gem will make encoding and decoding of HMACSHA256 tokens
+# available in the Rails application.
+# Read more at http://tutorials.pluralsight.com/ruby-ruby-on-rails/token-based-authentication-with-ruby-on-rails-5-api#1ERPTkVS3yHey7s0.99
+gem 'jwt'
+
+# Authenticating users
+# Instead of using private controller methods, simple_command can be used: simple_command .
+# The simple command gem is an easy way of creating services. Its role is similar to
+# the role of a helper, but instead of facilitating the connection between the
+# controller and the view, it does the same for the controller and the model.
+# In this way, we can shorten the code in the models and controllers.
+gem 'simple_command'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

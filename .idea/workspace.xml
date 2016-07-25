@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e088af3-b4e3-4541-8eb8-2933ca29713c" name="Default" comment="" />
+    <list default="true" id="9e088af3-b4e3-4541-8eb8-2933ca29713c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+    </list>
     <ignored path="Token-based-authentication-with-Ruby-on-Rails-5-API.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -45,11 +47,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorize_api_request.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="authorize_api_request.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/commands/authorize_api_request.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="25" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="35" column="56" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -100,6 +122,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/commands/authenticate_user.rb" />
         <option value="$PROJECT_DIR$/app/commands/authorize_api_request.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/authentication_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -548,12 +572,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469458085197</updated>
-      <workItem from="1469458086441" duration="2961000" />
+      <workItem from="1469458086441" duration="3654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2961000" />
+    <option name="totallyTimeSpent" value="3654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="570" y="23" width="710" height="773" extended-state="0" />
@@ -650,6 +674,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
